@@ -1,47 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Knowledge Vault</title>
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.12.0/dist/themes/light.css" />
+<script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.12.0/dist/shoelace-autoloader.js"></script>
 </head>
+
 <body>
-        <nav id="nav">
-            <img src="image/light.jpg" id="light">
-            <div class="brand">
+    <nav id="nav">
+        <img src="image/light.jpg" id="light">
+        <div class="brand">
             <h3 id="kv">KV</h2>
-            <p id="under_vault" >Knowledge Vault</p>
+                <p id="under_vault">Knowledge Vault</p>
+        </div>
+
+        <ul class="logo">
+            <li>Features</li>
+            <li>How It Works</li>
+            <li>Why It's Different</li>
+        </ul>
+
+        <button id="btn1">
+            <p>Get Early Access</p>
+        </button>
+    </nav>
+
+    <header class="head">
+        <img src="image/desk.jpg" id="desk">
+        <div class="text">
+            <div class="early_access">
+                <p id="early_accs_txt">Early Access Now Open</p>
             </div>
 
-             <ul class="logo">
-                <li>Features</li>
-                <li>How It Works</li>
-                <li>Why It's Different</li>
-             </ul>
-
-             <button id="btn1"> 
-                <p>Get Early Access</p>
-             </button>
-        </nav>
-        <header class="head">
-            <img src="image/desk.jpg" id="desk">
-            <div id="text">
-                <div class="early_access">
-                     <p id="early_accs_txt" >Early Access Now Open</p>
-                </div>
-               
-                <p style="color: white; font-weight: bolder; font-size:42px;">Structured Thinking,</p>
-                <p style="color:#30B868; font-weight: bolder; font-size:42px;">Not Just Note-Taking.</p>
-                <p style="color: rgb(209, 189, 189);font-weight:bold; font-size: 11px;">A private space to store notes,links and learning summaries-designed to <br> help you think clearly,connect ideas and turn learning into long-term knowledge.</p><br>
-                <button id="btn1"> 
+            <p style="color: white; font-weight: bolder; font-size:42px;">Structured Thinking,</p>
+            <p style="color:#30B868; font-weight: bolder; font-size:42px;">Not Just Note-Taking.</p>
+            <p style="color: rgb(209, 189, 189);font-weight:bold; font-size: 11px;">A private space to store notes,links
+                and learning summaries-designed to <br> help you think clearly,connect ideas and turn learning into
+                long-term knowledge.</p><br>
+            <button id="btn1">
                 <p>Start Building Your Vault</p>
-             </button>
-             <button id="btn2"> 
+            </button>
+            <button id="btn2">
                 <p>See How It Works</p>
-             </button>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <div>
+            <p id="txt1">Notes Dont's Fail, Structure Does.</p>
+            <p id="txt2">You're not bad at learning. Your tools just weren't build for how knowledge actually works.</p>
+        </div>
+
+        <div class="card-list">
+            <div class="card">
+                <div class="icon-box">
+                   <i class="fa-solid fa-brain"></i>
+                </div>
+                <h3>Scattered Notes</h3>
+                <p>Your ideas live in 10 different apps, none of them connected.</p>
             </div>
-            
-        </header>
+
+            <div class="card">
+                <div class="icon-box">
+                    <img src="image/icon2.png" alt="icon">
+                </div>
+                <h3>Bookmark Overload</h3>
+                <p>Hundreds of saved links you'll never revisit or remember.</p>
+            </div>
+
+            <div class="card">
+                <div class="icon-box" >
+                    <img src="image/icon3.png" alt="icon">
+                </div>
+                <h3>No Idea Connections</h3>
+                <p>Insights stay isolated,never building into bigger understanding.</p>
+            </div>
+
+            <div class="card">
+                <div class="icon-box" >
+                    <img src="image/icon4.png" alt="icon">
+                </div>
+                <h3>Forgetting What You Learned</h3>
+                <p>Knowledge fades because there's no system to retain it .</p>
+            </div>
+        </div>
+
+        <div class="second-brain">
+            <img src="image/circle.png" id="circle">
+            <div class="txt3">
+                <p id="txt4" style="margin-bottom: 15px;">THE SOLUTION</p>
+                <h1 style="margin-bottom: 15px; font-size: 48px;">Your Second Brain,<br> Structured By Design.</h1>
+                <p style="color:#627382 ; font-size: 16px; width: 60%;"> Personal Knowledge Vault isn't another note-taking app.It's a thinking environment where every note,link and summary becomes part of an interconnected web of understanding.</p>
+                <ul style="margin-top: 20px; list-style: none; color: #001931;">
+                    <li class="li">Capture ideas with structure build-in from day one</li>
+                    <li class="li">Connect related concepts automatically as you write</li>
+                    <li class="li">Build lasting knowledge through reflection prompts</li>
+                    <li class="li">Find anything instantly with semantic search</li>
+                </ul>
+            </div>
+        </div>
+    </main>
 </body>
+
 </html>

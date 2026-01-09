@@ -44,14 +44,13 @@
 }
 .head{
     position: relative;
-    /* overflow: hidden; */
 }
 #desk{
-    width:100%;
+    width: 100%;
     height: 500px;
     opacity: .8;
 }
-#text{
+.text{
      position: absolute;
      top: 50%;
      left: 50%;
@@ -76,4 +75,80 @@
     display: inline-flex;
     color:#30B868;
     border-radius: 4px;
+}
+#txt1{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size: 40px;
+}
+#txt2{
+    text-align: center;
+    margin-top: 16px;
+    font-size: 16px;
+}
+
+.card-list {
+    display: flex;
+    /* justify-content: center;  */
+    gap: 16px;          
+    padding: 24px ;   
+}
+
+.card {
+    flex: 1;                 
+    max-width: 322px;   
+    background: #ffffff;
+    padding: 24px;
+    border-radius: 8px;   
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05); 
+    text-align: center;
+}
+.card p {
+margin-top: 20px;
+color: #627382;
+}
+
+.icon-box {
+    background-color:  #f95555;;
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* .icon-box img {
+    width: 24px;
+    height: 24px;
+} */
+
+wa-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.second-brain{
+    margin-left: 40px;
+    display: flex;
+}
+#circle{
+    height:600px;
+    width: auto;
+}
+.txt3{
+    align-items: center;
+    margin-left: 60px;
+    margin-top: 100px;
+}
+#txt4{
+    color: #30B868;
+}
+.li{
+    margin-bottom: 15px;
+    text-decoration: none;
 }
