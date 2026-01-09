@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#kv{
+    color:#30B868;
+    font-size:x-large;
+    font-weight: 900;
+    margin-left: 50px;
+}
